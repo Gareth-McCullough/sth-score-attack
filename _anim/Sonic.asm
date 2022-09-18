@@ -32,7 +32,7 @@
 		dc.w SonAni_Blank-SonicAniData
 		dc.w SonAni_Float3-SonicAniData
 		dc.w SonAni_Float4-SonicAniData
-		dc.w SonAni_SpinDash-SonicAniData	;1F
+		dc.w SonAni_Spindash-SonicAniData	;1F
 SonAni_Walk:	dc.b $FF, 8, 9,	$A, $B,	6, 7, $FF
 SonAni_Run:	dc.b $FF, $1E, $1F, $20, $21, $FF, $FF,	$FF
 SonAni_Roll:	dc.b $FE, $2E, $2F, $30, $31, $32, $FF,	$FF
@@ -64,5 +64,5 @@ SonAni_LZSlide:	dc.b 7, $55, $57, $FF
 SonAni_Blank:	dc.b $77, 0, $FD, 0
 SonAni_Float3:	dc.b 3,	$3C, $3D, $53, $3E, $54, $FF, 0
 SonAni_Float4:	dc.b 3,	$3C, $FD, 0
-SonAni_SpinDash:	dc.b 0, $58, $59, $58, $5A, $58, $5B, $58, $5C, $58, $5D, $FF
+SonAni_Spindash:	dc.b 0, $58, $59, $58, $5A, $58, $5B, $58, $5C, $58, $5D, $FF
 		even

@@ -89,12 +89,12 @@
 		dc.w SonPLC_Injury1-SonicDynPLC
 		dc.w SonPLC_Bubble-SonicDynPLC
 		dc.w SonPLC_Injury2-SonicDynPLC
-		dc.w SonPLC_SpinDash1-SonicDynPLC	;58
-		dc.w SonPLC_SpinDash2-SonicDynPLC	;59
-		dc.w SonPLC_SpinDash3-SonicDynPLC	;5A
-		dc.w SonPLC_SpinDash4-SonicDynPLC	;5B
-		dc.w SonPLC_SpinDash5-SonicDynPLC	;5C
-		dc.w SonPLC_SpinDash6-SonicDynPLC	;5D
+		dc.w SonPLC_Spindash1-SonicDynPLC	;58
+		dc.w SonPLC_Spindash2-SonicDynPLC	;59
+		dc.w SonPLC_Spindash3-SonicDynPLC	;5A
+		dc.w SonPLC_Spindash4-SonicDynPLC	;5B
+		dc.w SonPLC_Spindash5-SonicDynPLC	;5C
+		dc.w SonPLC_Spindash6-SonicDynPLC	;5D
 SonPLC_Blank:	dc.b 0
 SonPLC_Stand:	dc.b 4,	$20, 0,	$70, 3,	$20, $B, $20, $E
 SonPLC_Wait1:	dc.b 3,	$50, $11, $50, $17, $20, $1D
@@ -181,10 +181,10 @@ SonPLC_Shrink5:	dc.b 1,	$14, $D0
 SonPLC_Injury1:	dc.b 3,	$B4, $D2, $14, $DE, $34, $E0
 SonPLC_Bubble:	dc.b 3,	$54, $E4, $B4, $EA, $10, $6D
 SonPLC_Injury2:	dc.b 2,	$F4, $F6, $25, 6
-SonPLC_SpinDash1:	dc.b 1, $F5, $10	; 01 F 510
-SonPLC_SpinDash2:	dc.b 1, $F5, $20	; 01 F 520
-SonPLC_SpinDash3:	dc.b 1, $F5, $30	; 01 F 530
-SonPLC_SpinDash4:	dc.b 1, $F5, $40	; 01 F 540
-SonPLC_SpinDash5:	dc.b 1, $F5, $50	; 01 F 550
-SonPLC_SpinDash6:	dc.b 1, $F5, $60	; 01 F 560
+SonPLC_Spindash1:	dc.b 1, $F5, $10	; 01 F 510
+SonPLC_Spindash2:	dc.b 1, $F5, $20	; 01 F 520
+SonPLC_Spindash3:	dc.b 1, $F5, $30	; 01 F 530
+SonPLC_Spindash4:	dc.b 1, $F5, $40	; 01 F 540
+SonPLC_Spindash5:	dc.b 1, $F5, $50	; 01 F 550
+SonPLC_Spindash6:	dc.b 1, $F5, $60	; 01 F 560
 		even

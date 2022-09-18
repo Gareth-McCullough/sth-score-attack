@@ -1,1 +1,0 @@
-# sth-score-attack

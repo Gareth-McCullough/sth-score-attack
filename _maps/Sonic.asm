@@ -396,16 +396,16 @@ byte_217E3:	dc.b 3			; collecting bubble (LZ)
 byte_217F3:	dc.b 2			; water	slide (LZ)
 		dc.b $F0, $F, 0, 0, $EC
 		dc.b $F8, 2, 0,	$10, $C
-byte_spdh1:	dc.b 1			; Spin Dash 1
-		dc.b $F8, $F, 0, 0, $F4
-byte_spdh2:	dc.b 1			; Spin Dash 2
-		dc.b $F8, $F, 0, 0, $F4
-byte_spdh3:	dc.b 1			; Spin Dash 3
-		dc.b $F8, $F, 0, 0, $F4
-byte_spdh4:	dc.b 1			; Spin Dash 4
-		dc.b $F8, $F, 0, 0, $F4
-byte_spdh5:	dc.b 1			; Spin Dash 5
-		dc.b $F8, $F, 0, 0, $F4
-byte_spdh6:	dc.b 1			; Spin Dash 6
-		dc.b $F8, $F, 0, 0, $F4
+byte_spdh1:	dc.b 1			; spindash 1
+		dc.b $F8, $F, 0, 0, $F0
+byte_spdh2:	dc.b 1			; spindash 2
+		dc.b $F8, $F, 0, 0, $F0
+byte_spdh3:	dc.b 1			; spindash 3
+		dc.b $F8, $F, 0, 0, $F0
+byte_spdh4:	dc.b 1			; spindash 4
+		dc.b $F8, $F, 0, 0, $F0
+byte_spdh5:	dc.b 1			; spindash 5
+		dc.b $F8, $F, 0, 0, $F0
+byte_spdh6:	dc.b 1			; spindash 6
+		dc.b $F8, $F, 0, 0, $F0
 		even
