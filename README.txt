@@ -1,20 +1,14 @@
 ========================================================================================
  Sonic the Hedgehog (W) (REV00) [!].bin - June 2005 Disassembly
 ========================================================================================
+
 ----------------------------------------------------------------------------------------
-	Files
+	Changes made
 ----------------------------------------------------------------------------------------
-sonic1.asm	Sonic 1 source code, with most chunks of data separated.
-split.exe	Extracts data from a Sonic 1 ROM and places it in folders for convenient
-		editing. Written by Nemesis.
-derecmp.exe	Decompresses all compressed data. Also recompresses it (disabled by
-		default to increase compilation speed). Written by Hivebrain.
-include.exe	Combines the main ASM file with several external ASM files. Written by
-		Hivebrain.
-snasm68k.exe	Compiles the ASM file. Written by Cross Products.
-rompad.exe	Pads the output ROM so that its size is 2^n. Written by Lightning.
-fixheadr.exe	Fixes the checksum of the output ROM. Written by Stealth.
-_dlls\		Folder containing KENS compression/decompression DLLs. Written by Magus.
+
+The game now incentivises perfect play and to shoot for a high score, with rings
+carrying through acts and zones with a dynamic ending sequence.
+
 ----------------------------------------------------------------------------------------
 	How to split a ROM
 ----------------------------------------------------------------------------------------
